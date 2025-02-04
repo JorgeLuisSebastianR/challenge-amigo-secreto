@@ -19,7 +19,7 @@ function agregarAmigo(){
     let numeroDeUsuario = document.getElementById('amigo').value;
 
     if(numeroDeUsuario === ""){
-        alert("Por favor ingrese un nombre válido.");
+        alert("Por favor, inserte un nombre.");
     } else {
         listaDeAmigos.push(numeroDeUsuario);
         mostrarListaAmigos("ul");
